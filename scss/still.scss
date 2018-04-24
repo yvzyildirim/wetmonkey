@@ -1,0 +1,336 @@
+$primary-color:#222222;
+$primary-font: century gothic;
+$second-color: #ffd200;
+$third-color: #a7a7a7;
+$border-color: #eaeaea;
+
+body,html{
+	background-color: $primary-color !important;
+	width: 100%;
+	margin:0px;
+}
+h1{
+	font-family: arial;
+}
+div{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.full-size{
+	width: 100% !important;
+}
+.header-me{
+	position: absolute;
+	width: 100%;
+	height: 122px;
+	border-top: 9px solid $second-color;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top: 41px;
+	z-index: 99999;
+	a{
+		color:$third-color;
+		font-size: 20px;
+		font-family: century gothic;
+		margin-left:15px;
+		margin-right: 15px;
+		padding:6px;
+	}
+	a:hover{
+		color:$second-color;
+		text-decoration:none;
+		border-bottom: 4px solid $second-color !important;
+	}
+}
+.slider{
+	height: auto;
+	background-color: $second-color;
+	padding: 0px !important;
+	margin:0px !important;
+}
+
+.news{
+	height: 470px;
+	margin-top: 20px;
+}
+.news-box{
+	width: 470px;
+	height: 470px;
+	background-color: $primary-color;
+	float: right;
+	margin-right: 20px;
+
+	img{
+		width: 100%;
+	}
+	h1{
+		padding: 10px;
+		position: absolute;
+		bottom:34px;
+		background-color: rgba(0, 0, 0, 0.7);
+		width: 470px !important;
+		margin:0px !important;
+		color: white;
+		font-size: 30px;
+		font-family: arial;
+		font-weight: bold;
+	}
+	p{
+		font-family: $primary-font;
+		font-weight: 300;
+		font-size:14px;
+		margin-top: 10px;
+		line-height: 22px;
+	}
+}
+.album-social{
+	position: absolute;
+	bottom: 0;
+	width: 470px !important;
+	background-color: $second-color;
+	height: 34px;
+	text-align: right;
+	padding: 5px;
+	img{
+		width: auto;
+		height: 17px;
+		margin-right: 8px;
+	}
+}
+.info-box{
+	width: 230px;
+	height: 470px;
+	background:url(../img/space-bg.jpg);
+	float: right;
+	text-align: center;
+	padding-top: 80px;
+	h1{
+		font-size: 20px;
+		color:white;
+		letter-spacing: 4px;
+		margin-top: 30px;
+		font-family: arial black;
+	}
+	p{
+		color:white;
+		font-size: 16px;
+		font-style: italic;
+		line-height: 22px;
+		padding:10px;
+		font-weight: bold;
+	}
+	button{
+		padding:8px;
+		width: 120px;
+		border:none;
+	}
+	button:hover{
+		background-color: $second-color;
+	}
+}
+.moon-earth{
+	position: absolute;
+	float:left;
+	margin-top: 400px;
+	margin-left: 60px;
+}
+.social{
+	margin-top: 100px;
+}
+.social-astro{
+	background:url(../img/social-astro.jpg) right;
+	height: 700px;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  img{
+  	position: absolute;
+  	right:0;
+  	margin-right: -202px;	
+  	z-index: 9999;
+  	margin-top: 70px;
+  }
+}
+.social-info{
+	background:url(../img/white-line.png) #000; 
+	height: 700px;
+	padding-left: 250px !important;
+
+	h1{
+		font-size: 51px;
+		color:white;
+		font-weight: bold;
+		margin:0px !important; padding: 0px !important;
+		margin-top: 220px !important;
+	}
+	h2{
+		color:#555555;
+		font-size: 51px;
+		font-weight: bold;
+		margin:0px !important; padding: 0px !important;
+	}
+	p{
+		font-size: 16px;
+		color: #9b9b9b;
+	}
+	
+}
+.social-link{
+	padding-top: 10px;
+	img{
+		margin-right: 10px;
+	}
+}
+
+.track-and-video{
+	height: 1400px;
+	background:url(../img/space-man-bg.png)  center bottom no-repeat;
+	background-size:cover;
+}	
+.player{
+	margin-top: 60px;
+	height: 500px;
+	
+}
+.playlist{
+	height: 500px;
+	background:url(../img/black-transp.png);
+
+}
+.now-playing{
+	padding:30px;
+	height: 170px;
+	h1{
+	display: inline-block;
+	font-size: 26px !important;
+	font-family: arial;
+	font-weight: bold;
+	color:white;
+	}
+	span{
+		float: right;
+		margin-top: 24px;
+	}
+	img{
+		margin-left:10px;
+	}
+}
+.play-nav{
+	margin-top: 30px;
+	button{
+		float:left;
+		background:url(../img/play-but.png) no-repeat;
+		width: 27px;
+		height: 36px;
+		border:none;
+		outline: none;
+		margin-top: -7px;
+	}
+}
+.timeline{
+	float:right;
+	background-color: #bababa;
+	height: 2px;
+	width: 90%;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.play-head{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50px;
+	background-color: $second-color;
+	margin-top: -9px;
+	border:4px solid white;
+}
+.other-tracks{
+	overflow-y: scroll;
+	height: 300px;
+	span{
+		display: inline-block;
+		width: 100%;
+		padding:10px;
+		border-top:1px solid #4e4e4e;
+		padding-top: 20px;
+	}
+	h2{
+		float:left;
+		font-size: 20px;
+		color:#c4c4c4;
+		margin:0px !important;
+		padding:0px !important;
+	}
+	h3{
+		float:right;
+		font-size: 20px;
+		color:#c4c4c4;
+		margin:0px !important;
+		padding:0px !important;
+	}
+}
+#style-1::-webkit-scrollbar{
+  width: 6px;
+  background-color: #F5F5F5;
+}
+#style-1::-webkit-scrollbar-thumb {
+  background-color: #ffd200;
+}
+
+#style-1::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: #dbdbdb;
+}
+.play-cover{
+	background:url(../img/track-cover.jpg) center center ;
+	background-size: cover;
+	height: 500px;
+	color:white;
+}
+
+.videos{
+	margin-top: 130px !important;
+	vertical-align: middle;
+	z-index: 999999;
+	a{
+		display: block;
+		color:$second-color;
+		font-size: 24px;
+		vertical-align: middle;
+		margin-top: 170px;
+	}
+	a:hover{
+		text-decoration: none;
+		color:white;
+	}
+}
+
+
+.gallery{
+	margin-bottom:60px;
+	padding-bottom: 40px;
+	z-index: 99;
+}
+.gallery-box{
+	float: left;
+	width: 20%;
+	background:url(../img/img-hover.gif) center center;
+	img{
+		width: 100%;
+	}
+	img:hover{
+		opacity: 0.8;
+	}
+}
+.footer{
+	height: 225px;
+	background:url(../img/footer-astro.png) center bottom no-repeat;
+	padding-top: 80px;
+	a{
+		display: inline-block;
+		float:right;
+		margin-left: 15px;
+	}
+}
