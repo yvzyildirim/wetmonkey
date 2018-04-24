@@ -1,2 +1,2 @@
-# WM
+# Project Title
 wetmonkey
